@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.outer-div{
+  padding-top: 10px;
+  height: 700px;
+  width: 50%;
+}
+
+.messages-container {
+    height: 700px;
+    border:1px solid black;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+.message {
+    border:1px solid black;
+    background-color: lightgray;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h4 {
+    margin: 10px;
+}
